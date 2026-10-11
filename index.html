@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanjay A | Java Backend Developer & Full Stack Engineer</title>
+  <meta name="description" content="Portfolio of Sanjay A - Java Backend Developer specializing in Spring Boot, REST APIs, Microservices, PostgreSQL, and React.js. Experienced in scalable backend architectures and dynamic data pipelines.">
+  <meta name="keywords" content="Sanjay A, Java Developer, Spring Boot, Microservices, REST APIs, PostgreSQL, React.js, Full Stack Developer, Kerala, Technopark">
+  <meta name="author" content="Sanjay A">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sanjay A | Java Backend Developer Portfolio">
+  <meta property="og:description" content="Java Backend Developer specializing in Spring Boot, REST APIs, Microservices, and PostgreSQL.">
+  <meta property="og:image" content="assets/images/headshot.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom-right" aria-hidden="true"></div>
+  <canvas id="ambient-canvas" aria-hidden="true"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-wrapper" id="header">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <a href="#hero" class="brand-logo" aria-label="Sanjay A Homepage">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-name">Sanjay</span>
+        <span class="logo-accent">.dev</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="assets/docs/Sanjay_A_Resume.pdf" download="Sanjay_A_Resume.pdf" class="btn btn-outline btn-sm nav-resume-btn" id="nav-resume-download">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Resume
+          </a>
+
+          <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Color Theme" title="Toggle theme">
+            <svg class="icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO SECTION -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span class="status-text">Available for Java Backend & Full-Stack Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Sanjay A</span>
+            <span class="hero-subtitle-block">
+              Building <span class="typing-text" id="typing-text">Scalable Microservices</span>
+              <span class="cursor">|</span>
+            </span>
+          </h1>
+
+          <p class="hero-bio">
+            Java Backend Developer with proven experience engineering high-throughput <strong>Spring Boot REST APIs</strong>, scalable microservices, robust <strong>PostgreSQL</strong> architectures, and automated data pipelines at <strong>Beagle Security</strong>. Complementary expertise in <strong>React.js</strong> for end-to-end full-stack delivery.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="assets/docs/Sanjay_A_Resume.pdf" download="Sanjay_A_Resume.pdf" class="btn btn-secondary" id="hero-resume-download">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              <span>Download Resume</span>
+            </a>
+            <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+          </div>
+
+          <div class="hero-social-links">
+            <a href="https://github.com/sanjaybridgeon-tech" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/sanjaysr2902" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <button class="social-link copy-pill" id="copy-email-hero" data-copy="sanjaysr2902@gmail.com" title="Click to copy email">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>sanjaysr2902@gmail.com</span>
+            </button>
+            <div class="social-link location-badge" title="Location">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Kerala, India</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- HERO VISUAL WITH HEADSHOT PHOTO -->
+        <div class="hero-visual">
+          <div class="photo-card-wrapper">
+            <!-- Glow rings -->
+            <div class="photo-glow-ring"></div>
+            
+            <div class="photo-card">
+              <img 
+                src="assets/images/headshot.png" 
+                alt="Sanjay A - Professional Headshot" 
+                class="profile-photo" 
+                id="profile-img"
+                loading="eager"
+              >
+              <div class="photo-overlay">
+                <span class="photo-tag">Java Developer • Beagle Security Intern</span>
+              </div>
+            </div>
+
+            <!-- Orbiting Tech Badges -->
+            <div class="orbit-badge badge-spring" title="Spring Boot">
+              <span class="badge-icon">🍃</span>
+              <span class="badge-label">Spring Boot</span>
+            </div>
+            <div class="orbit-badge badge-java" title="Java Microservices">
+              <span class="badge-icon">☕</span>
+              <span class="badge-label">Java 17+</span>
+            </div>
+            <div class="orbit-badge badge-postgres" title="PostgreSQL Database">
+              <span class="badge-icon">🐘</span>
+              <span class="badge-label">PostgreSQL</span>
+            </div>
+            <div class="orbit-badge badge-react" title="React.js Frontend">
+              <span class="badge-icon">⚛️</span>
+              <span class="badge-label">React.js</span>
+            </div>
+            <div class="orbit-badge badge-docker" title="Docker Containerization">
+              <span class="badge-icon">🐳</span>
+              <span class="badge-label">Docker</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Key Stats Grid -->
+      <div class="container hero-stats-container">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">2+</div>
+            <div class="stat-title">Industry Internships</div>
+            <div class="stat-desc">Beagle Security & Bridgeon</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">REST &amp; Microservices</div>
+            <div class="stat-title">Backend Architecture</div>
+            <div class="stat-desc">Spring Boot, DTO Pattern, JPA</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">Real-Time</div>
+            <div class="stat-title">Data &amp; PDF Pipelines</div>
+            <div class="stat-desc">Playwright, HBS, Streaming APIs</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">Full-Stack</div>
+            <div class="stat-title">Production Integration</div>
+            <div class="stat-desc">React.js, Razorpay, Docker, AWS</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">ENGINEERING PROFILE</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Dedicated to building resilient backends, reliable data flows, and clean architectures.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-content">
+            <h3 class="about-heading">Transforming Complex Logic into Clean, Scalable Systems</h3>
+            <p>
+              I am a <strong>Java Backend Developer</strong> with hands-on experience in Java, Spring Boot, REST APIs, and microservices. I specialize in designing scalable backend solutions, database-driven applications, and bridging server-side logic with responsive user experiences.
+            </p>
+            <p>
+              Currently at <strong>Beagle Security (Technopark, Thiruvananthapuram)</strong>, I engineer core backend features including high-volume bulk import workflows, PostgreSQL staging tables, duplicate detection systems, and dynamic PDF assessment reporting pipelines using Playwright and Handlebars.
+            </p>
+            <p>
+              I take pride in writing decoupled, maintainable code following the <strong>DTO pattern</strong>, <strong>clean MVC architecture</strong>, and standard software engineering principles. I collaborate proactively in Agile/Scrum teams to turn business specifications into production-ready software.
+            </p>
+
+            <div class="about-highlights-list">
+              <div class="highlight-item">
+                <div class="highlight-icon">⚡</div>
+                <div>
+                  <strong>Enterprise API Development</strong>
+                  <p>Expertise in Spring Boot, RESTful design, pagination, sorting, search, and CORS security.</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">🗄️</div>
+                <div>
+                  <strong>Database Architecture &amp; Optimization</strong>
+                  <p>Normalized schema design, staging table pipelines, indexing, and Spring Data JPA query tuning.</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">🔄</div>
+                <div>
+                  <strong>Event &amp; Worker Pipelines</strong>
+                  <p>Automated PDF document compilation, asynchronous task coordination with RabbitMQ and Docker.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cards-sidebar">
+            <div class="info-card">
+              <h4 class="info-card-title">Quick Details</h4>
+              <ul class="info-list">
+                <li>
+                  <span class="info-label">Name</span>
+                  <span class="info-value">Sanjay A</span>
+                </li>
+                <li>
+                  <span class="info-label">Location</span>
+                  <span class="info-value">Malappuram, Kerala, India</span>
+                </li>
+                <li>
+                  <span class="info-label">Degree</span>
+                  <span class="info-value">B.Tech ECE (MACE, 2021–2025)</span>
+                </li>
+                <li>
+                  <span class="info-label">Current Role</span>
+                  <span class="info-value">Java Developer Intern @ Beagle Security</span>
+                </li>
+                <li>
+                  <span class="info-label">Email</span>
+                  <span class="info-value">sanjaysr2902@gmail.com</span>
+                </li>
+                <li>
+                  <span class="info-label">Phone</span>
+                  <span class="info-value">+91 7510782632</span>
+                </li>
+                <li>
+                  <span class="info-label">Work Mode</span>
+                  <span class="info-value badge-success">Open to Full-Time / Remote / On-Site</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="info-card philosophy-card">
+              <h4 class="info-card-title">Core Development Philosophy</h4>
+              <p class="philosophy-quote">
+                "Robust software starts with strict contracts: decouple layers using DTOs, secure endpoints early, optimize database queries before scaling hardware, and automate everything that runs twice."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">TECH STACK &amp; CAPABILITIES</span>
+          <h2 class="section-title">Technical Expertise</h2>
+          <p class="section-subtitle">A comprehensive toolkit spanning enterprise backend systems, databases, modern web interfaces, and cloud tooling.</p>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="filter-tabs-wrapper">
+          <div class="filter-tabs" role="tablist">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Technologies</button>
+            <button class="filter-btn" data-filter="backend" role="tab" aria-selected="false">Backend &amp; Microservices</button>
+            <button class="filter-btn" data-filter="languages" role="tab" aria-selected="false">Languages</button>
+            <button class="filter-btn" data-filter="database" role="tab" aria-selected="false">Databases &amp; Cloud</button>
+            <button class="filter-btn" data-filter="frontend" role="tab" aria-selected="false">Frontend</button>
+            <button class="filter-btn" data-filter="devops" role="tab" aria-selected="false">DevOps &amp; Tools</button>
+          </div>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skills-grid">
+          <!-- Backend -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap backend">
+              <span class="tech-emoji">🍃</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">Spring Boot</h3>
+              <span class="skill-badge">Core Backend</span>
+              <p class="skill-desc">REST APIs, Spring MVC, Spring Data JPA, Spring Security, microservices architecture, and CORS configuration.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap backend">
+              <span class="tech-emoji">🔌</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">RESTful APIs</h3>
+              <span class="skill-badge">Architecture</span>
+              <p class="skill-desc">CRUD operations, bulk import endpoints, server-side pagination, sorting, filtering, streaming progress APIs, and DTO contracts.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap backend">
+              <span class="tech-emoji">🧩</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">Microservices Architecture</h3>
+              <span class="skill-badge">System Design</span>
+              <p class="skill-desc">Decoupled services, event-driven messaging, service integration, error boundaries, and DTO data abstraction.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap backend">
+              <span class="tech-emoji">📑</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">Playwright &amp; Handlebars</h3>
+              <span class="skill-badge">Automation Pipeline</span>
+              <p class="skill-desc">Engineered dynamic PDF generation pipeline converting DTOs into HTML templates and rendering production-ready PDFs.</p>
+            </div>
+          </div>
+
+          <!-- Languages -->
+          <div class="skill-card" data-category="languages">
+            <div class="skill-icon-wrap lang">
+              <span class="tech-emoji">☕</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">Java (Core &amp; Advanced)</h3>
+              <span class="skill-badge">Primary Language</span>
+              <p class="skill-desc">Object-oriented programming, Collections, Streams, Multithreading, DTOs, Exception handling, and clean code principles.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-icon-wrap lang">
+              <span class="tech-emoji">🟨</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">JavaScript (ES6+)</h3>
+              <span class="skill-badge">Language</span>
+              <p class="skill-desc">Asynchronous JS, Promises, Fetch API, DOM manipulation, modular architecture, and modern ES6+ features.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-icon-wrap lang">
+              <span class="tech-emoji">💻</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">C Programming</h3>
+              <span class="skill-badge">Language</span>
+              <p class="skill-desc">Low-level algorithms, data structures, pointer management, memory layout, and embedded logic.</p>
+            </div>
+          </div>
+
+          <!-- Database & Cloud -->
+          <div class="skill-card" data-category="database">
+            <div class="skill-icon-wrap database">
+              <span class="tech-emoji">🐘</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">PostgreSQL &amp; SQL</h3>
+              <span class="skill-badge">RDBMS</span>
+              <p class="skill-desc">Normalized schemas, staging tables for bulk imports, foreign keys, constraints, duplicate detection, and query optimization.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="database">
+            <div class="skill-icon-wrap database">
+              <span class="tech-emoji">☁️</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">AWS Cloud</h3>
+              <span class="skill-badge">Cloud Infrastructure</span>
+              <p class="skill-desc">Cloud-hosted development environments, application deployment integration, and scalable storage.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="database">
+            <div class="skill-icon-wrap backend">
+              <span class="tech-emoji">🐇</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">RabbitMQ</h3>
+              <span class="skill-badge">Message Broker</span>
+              <p class="skill-desc">Asynchronous task queues, background processing coordination, and message decoupled microservice communication.</p>
+            </div>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrap frontend">
+              <span class="tech-emoji">⚛️</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">React.js</h3>
+              <span class="skill-badge">Frontend Library</span>
+              <p class="skill-desc">Functional components, custom hooks, React Router, Context API, state management, and full API integration.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrap frontend">
+              <span class="tech-emoji">🟣</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">Redux &amp; Context API</h3>
+              <span class="skill-badge">State Management</span>
+              <p class="skill-desc">Predictable state containers for complex client applications, shopping carts, wishlists, and user sessions.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrap frontend">
+              <span class="tech-emoji">🎨</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">HTML5, CSS3, Tailwind CSS</h3>
+              <span class="skill-badge">UI Styling</span>
+              <p class="skill-desc">Responsive layouts, Flexbox/Grid systems, glassmorphism, mobile-first design, accessibility, and modern UI tokens.</p>
+            </div>
+          </div>
+
+          <!-- DevOps & Tools -->
+          <div class="skill-card" data-category="devops">
+            <div class="skill-icon-wrap devops">
+              <span class="tech-emoji">🐳</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">Docker</h3>
+              <span class="skill-badge">Containerization</span>
+              <p class="skill-desc">Dockerfile creation, containerizing Spring Boot and React applications, environment consistency across staging &amp; prod.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="devops">
+            <div class="skill-icon-wrap devops">
+              <span class="tech-emoji">🚀</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">Git &amp; GitHub</h3>
+              <span class="skill-badge">Version Control</span>
+              <p class="skill-desc">Feature branching, Git workflows, pull requests, merge conflict resolution, and collaborative code reviews.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="devops">
+            <div class="skill-icon-wrap devops">
+              <span class="tech-emoji">🔨</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">Maven &amp; IntelliJ IDEA</h3>
+              <span class="skill-badge">Build &amp; IDE</span>
+              <p class="skill-desc">Dependency management, multi-module project structures, lifecycle builds, and advanced debugging workflows.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="devops">
+            <div class="skill-icon-wrap devops">
+              <span class="tech-emoji">📮</span>
+            </div>
+            <div class="skill-meta">
+              <h3 class="skill-name">Postman</h3>
+              <span class="skill-badge">API Testing</span>
+              <p class="skill-desc">Endpoint validation, request payload testing, automated collections, environment variables, and API documentation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">CAREER HISTORY</span>
+          <h2 class="section-title">Work Experience</h2>
+          <p class="section-subtitle">Real-world production engineering in cybersecurity and enterprise software development.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Experience 1: Beagle Security -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <span class="company-badge current">Current Position</span>
+                  <h3 class="role-title">Java Developer Intern</h3>
+                  <div class="company-name">
+                    <strong>Beagle Security</strong> • Technopark, Thiruvananthapuram
+                  </div>
+                </div>
+                <div class="timeline-date">
+                  <span class="date-pill">June 2026 – Present</span>
+                </div>
+              </div>
+
+              <p class="role-summary">
+                Contributed to enterprise cybersecurity platform backend, developing microservices, high-volume data staging pipelines, real-time streaming APIs, and automated dynamic PDF report generation.
+              </p>
+
+              <div class="responsibilities-list">
+                <div class="resp-item">
+                  <div class="bullet-indicator">▸</div>
+                  <div>
+                    <strong>Microservices &amp; REST API Development:</strong> Developed and integrated Spring Boot REST APIs for application management, bulk imports, server-side search, multi-field filtering, pagination, and dashboard workflows within a microservice architecture.
+                  </div>
+                </div>
+                <div class="resp-item">
+                  <div class="bullet-indicator">▸</div>
+                  <div>
+                    <strong>Dynamic PDF Report Pipeline:</strong> Engineered a dynamic PDF report generation pipeline using <strong>Playwright</strong> and <strong>Handlebars (HBS)</strong>, transforming database data through DTOs into HTML-based assessment reports and generating production-ready PDFs.
+                  </div>
+                </div>
+                <div class="resp-item">
+                  <div class="bullet-indicator">▸</div>
+                  <div>
+                    <strong>PostgreSQL Staging &amp; Data Ingestion:</strong> Designed and implemented PostgreSQL database schemas and staging tables to support bulk application imports, including strict data validation, duplicate detection, error handling, and import-status tracking.
+                  </div>
+                </div>
+                <div class="resp-item">
+                  <div class="bullet-indicator">▸</div>
+                  <div>
+                    <strong>Streaming &amp; Progress APIs:</strong> Built streaming and progress APIs to provide real-time status updates for long-running bulk import operations and support live dashboard progress visualization.
+                  </div>
+                </div>
+                <div class="resp-item">
+                  <div class="bullet-indicator">▸</div>
+                  <div>
+                    <strong>Microservices Stack Collaboration:</strong> Worked across a Java/Spring Boot microservices stack utilizing JPA, PostgreSQL, RabbitMQ, Maven, Docker, Git, Postman, and AWS for development, integration, testing, and debugging.
+                  </div>
+                </div>
+                <div class="resp-item">
+                  <div class="bullet-indicator">▸</div>
+                  <div>
+                    <strong>Agile Delivery &amp; Documentation:</strong> Collaborated within an Agile/Scrum environment, actively participating in sprint planning, daily stand-ups, code reviews, technical discussions, and authored OpenAPI/API documentation.
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">Microservices</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Playwright</span>
+                <span class="tag">Handlebars (HBS)</span>
+                <span class="tag">RabbitMQ</span>
+                <span class="tag">Docker</span>
+                <span class="tag">AWS</span>
+                <span class="tag">Agile / Scrum</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2: Bridgeon -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <span class="company-badge">Previous Role</span>
+                  <h3 class="role-title">Full Stack Developer Intern</h3>
+                  <div class="company-name">
+                    <strong>Bridgeon</strong> • Kakkancheri
+                  </div>
+                </div>
+                <div class="timeline-date">
+                  <span class="date-pill">May 2025 – Feb 2026</span>
+                </div>
+              </div>
+
+              <p class="role-summary">
+                Designed and built full-stack web applications, integrating Spring Boot REST APIs with React.js client interfaces and optimizing relational database query performance.
+              </p>
+
+              <div class="responsibilities-list">
+                <div class="resp-item">
+                  <div class="bullet-indicator">▸</div>
+                  <div>
+                    <strong>Backend Services &amp; REST APIs:</strong> Developed backend services using Java and Spring Boot, creating RESTful APIs for application business logic, validation, and data processing.
+                  </div>
+                </div>
+                <div class="resp-item">
+                  <div class="bullet-indicator">▸</div>
+                  <div>
+                    <strong>Full-Stack Integration:</strong> Integrated React.js frontend applications with backend REST APIs, implementing seamless end-to-end data flow between client and server components.
+                  </div>
+                </div>
+                <div class="resp-item">
+                  <div class="bullet-indicator">▸</div>
+                  <div>
+                    <strong>SQL Optimization:</strong> Designed and optimized SQL queries and database operations to improve data retrieval and application performance.
+                  </div>
+                </div>
+                <div class="resp-item">
+                  <div class="bullet-indicator">▸</div>
+                  <div>
+                    <strong>MVC Architecture &amp; Clean Code:</strong> Applied MVC architecture and backend development best practices to improve code organization, maintainability, and scalability.
+                  </div>
+                </div>
+                <div class="resp-item">
+                  <div class="bullet-indicator">▸</div>
+                  <div>
+                    <strong>Version Control:</strong> Used Git for version control and collaborative development, managing feature branches and code reviews.
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">React.js</span>
+                <span class="tag">SQL</span>
+                <span class="tag">REST APIs</span>
+                <span class="tag">MVC Architecture</span>
+                <span class="tag">Git</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">PORTFOLIO SHOWCASE</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real-world full-stack and backend applications architected for reliability, security, and smooth user experiences.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- PROJECT 1: Anime Store Web Application -->
+          <article class="project-card featured-project">
+            <div class="project-header-bar">
+              <span class="project-badge fullstack">Full-Stack Application</span>
+              <span class="project-live-indicator">
+                <span class="pulse-dot"></span> Live in Production
+              </span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">Anime Store Web Application</h3>
+              <p class="project-desc">
+                A full-stack e-commerce enterprise web application built using <strong>React.js</strong> and <strong>Spring Boot</strong>, featuring end-to-end product management, user authentication, cart, order, and integrated payment workflows.
+              </p>
+
+              <div class="project-features">
+                <h4 class="features-label">Key Architectural Highlights:</h4>
+                <ul class="feature-bullets">
+                  <li><strong>RESTful API Layer:</strong> Controllers for Products, Cart, Orders, Authentication, and Payments engineered using MVC architecture.</li>
+                  <li><strong>Razorpay Payment Gateway:</strong> Seamless real-time order creation, payment signatures, and verification using Razorpay Java SDK.</li>
+                  <li><strong>Optimized Pagination &amp; Search:</strong> Paginated product listings and keyword search with Spring Data JPA and <code>PageRequest</code> for high efficiency over large datasets.</li>
+                  <li><strong>Normalized Schema &amp; DTO Pattern:</strong> Normalized PostgreSQL schema (Users, Products, Cart Items, Orders, Order Items, Addresses) with DTO pattern decoupling internal models.</li>
+                  <li><strong>Security &amp; Containerization:</strong> Configured CORS and Spring Security for secure cross-origin communication; containerized with <strong>Docker</strong> for reproducible deployments.</li>
+                </ul>
+              </div>
+
+              <div class="tech-stack-pills">
+                <span class="tech-pill">Spring Boot</span>
+                <span class="tech-pill">React.js</span>
+                <span class="tech-pill">PostgreSQL</span>
+                <span class="tech-pill">Spring Data JPA</span>
+                <span class="tech-pill">Razorpay SDK</span>
+                <span class="tech-pill">Spring Security</span>
+                <span class="tech-pill">Docker</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://anime-premium.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  <span>Live Project</span>
+                </a>
+                <a href="https://github.com/sanjaybridgeon-tech" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>Source Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: E-Commerce React Frontend Application -->
+          <article class="project-card">
+            <div class="project-header-bar">
+              <span class="project-badge frontend">Frontend Web App</span>
+              <span class="project-live-indicator">
+                <span class="pulse-dot"></span> Live in Production
+              </span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">E-Commerce React Frontend Application</h3>
+              <p class="project-desc">
+                A modern, responsive e-commerce application crafted with <strong>React.js</strong> and <strong>Tailwind CSS</strong>, featuring fluid state management and smooth client-side routing.
+              </p>
+
+              <div class="project-features">
+                <h4 class="features-label">Key Highlights:</h4>
+                <ul class="feature-bullets">
+                  <li><strong>State Management:</strong> Built responsive shopping experience using <strong>Context API</strong> for cart operations, persistent wishlists, and user auth state.</li>
+                  <li><strong>Dynamic Routing:</strong> Implemented interactive product detail pages and routing with <strong>React Router</strong>.</li>
+                  <li><strong>Mock REST Backend:</strong> Built and integrated mock RESTful backend using JSON Server for seamless CRUD data simulations.</li>
+                  <li><strong>Checkout Flow:</strong> Complete user workflow covering catalog browsing, item filtering, wishlist management, and checkout.</li>
+                </ul>
+              </div>
+
+              <div class="tech-stack-pills">
+                <span class="tech-pill">React.js</span>
+                <span class="tech-pill">Tailwind CSS</span>
+                <span class="tech-pill">Context API</span>
+                <span class="tech-pill">React Router</span>
+                <span class="tech-pill">JSON Server</span>
+                <span class="tech-pill">REST APIs</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://car-beryl-three.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  <span>Live Project</span>
+                </a>
+                <a href="https://github.com/sanjaybridgeon-tech" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>Source Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: High-Throughput PDF Generation & Staging Engine -->
+          <article class="project-card">
+            <div class="project-header-bar">
+              <span class="project-badge backend">Backend Architecture</span>
+              <span class="project-live-indicator">
+                <span class="pulse-dot"></span> Beagle Security Engine
+              </span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">Dynamic PDF Pipeline &amp; Bulk Staging Engine</h3>
+              <p class="project-desc">
+                An automated report compilation and bulk ingestion system designed for cybersecurity vulnerability assessments and high-volume project assets.
+              </p>
+
+              <div class="project-features">
+                <h4 class="features-label">Key Highlights:</h4>
+                <ul class="feature-bullets">
+                  <li><strong>Automated PDF Pipeline:</strong> Headless rendering using <strong>Playwright</strong> and <strong>Handlebars (HBS)</strong> template engine converting complex DTO structures into print-perfect vulnerability reports.</li>
+                  <li><strong>PostgreSQL Staging Architecture:</strong> Implemented staging tables for fault-tolerant bulk uploads with integrity checks, duplicate detection, and rollback handling.</li>
+                  <li><strong>Streaming Status Updates:</strong> Created server streaming endpoints reporting real-time percentage progress to the client dashboard.</li>
+                </ul>
+              </div>
+
+              <div class="tech-stack-pills">
+                <span class="tech-pill">Playwright</span>
+                <span class="tech-pill">Handlebars (HBS)</span>
+                <span class="tech-pill">Spring Boot</span>
+                <span class="tech-pill">PostgreSQL</span>
+                <span class="tech-pill">RabbitMQ</span>
+                <span class="tech-pill">DTO Pattern</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/sanjaybridgeon-tech" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & EDUCATION SECTION -->
+    <section class="section cert-edu-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">CREDENTIALS &amp; FOUNDATIONS</span>
+          <h2 class="section-title">Certifications &amp; Education</h2>
+          <p class="section-subtitle">Verified technical milestones and engineering background.</p>
+        </div>
+
+        <div class="two-column-grid">
+          <!-- Certifications Column -->
+          <div class="column-card">
+            <div class="column-header">
+              <span class="column-icon">📜</span>
+              <h3 class="column-title">Certifications</h3>
+            </div>
+
+            <div class="credential-list">
+              <div class="credential-item">
+                <div class="cred-badge">HackerRank</div>
+                <div class="cred-details">
+                  <h4 class="cred-name">Java (Basic) Certification</h4>
+                  <p class="cred-org">HackerRank</p>
+                  <span class="cred-date">April 2026</span>
+                </div>
+              </div>
+
+              <div class="credential-item">
+                <div class="cred-badge">Oracle</div>
+                <div class="cred-details">
+                  <h4 class="cred-name">Databases for Developers: Foundations</h4>
+                  <p class="cred-org">Oracle Dev Gym</p>
+                  <span class="cred-date">April 2026</span>
+                </div>
+              </div>
+
+              <div class="credential-item">
+                <div class="cred-badge">Verdant</div>
+                <div class="cred-details">
+                  <h4 class="cred-name">Embedded C and AVR</h4>
+                  <p class="cred-org">Verdant IT Solutions</p>
+                  <span class="cred-date">February 2024</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education & Leadership Column -->
+          <div class="column-card">
+            <div class="column-header">
+              <span class="column-icon">🎓</span>
+              <h3 class="column-title">Education &amp; Leadership</h3>
+            </div>
+
+            <div class="credential-list">
+              <div class="credential-item">
+                <div class="cred-badge edu">B.Tech</div>
+                <div class="cred-details">
+                  <h4 class="cred-name">B.Tech in Electronics &amp; Communication Engineering</h4>
+                  <p class="cred-org">Mar Athanasius College of Engineering, Kothamangalam</p>
+                  <span class="cred-date">2021 – 2025</span>
+                </div>
+              </div>
+
+              <div class="credential-item">
+                <div class="cred-badge lead">Leadership</div>
+                <div class="cred-details">
+                  <h4 class="cred-name">Social Media Head</h4>
+                  <p class="cred-org">College Arts Festival</p>
+                  <p class="cred-sub">Managed social media campaigns and coordinated promotional activities to improve event visibility and audience engagement.</p>
+                </div>
+              </div>
+
+              <div class="credential-item">
+                <div class="cred-badge lead">Leadership</div>
+                <div class="cred-details">
+                  <h4 class="cred-name">Publicity Head</h4>
+                  <p class="cred-org">Astronomy &amp; Space Research Committee (AISA)</p>
+                  <p class="cred-sub">Led publicity initiatives and managed communication and outreach activities for technical events and programs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME DOWNLOAD BANNER -->
+    <section class="section resume-banner-section">
+      <div class="container">
+        <div class="resume-banner-box">
+          <div class="resume-banner-content">
+            <span class="resume-badge">READY TO REVIEW</span>
+            <h2 class="resume-banner-title">Need a concise summary of my qualifications?</h2>
+            <p class="resume-banner-desc">
+              Download my official one-page resume detailing my professional internships at Beagle Security and Bridgeon, backend projects, certifications, and technical proficiencies.
+            </p>
+          </div>
+          <div class="resume-banner-actions">
+            <a href="assets/docs/Sanjay_A_Resume.pdf" download="Sanjay_A_Resume.pdf" class="btn btn-primary btn-lg" id="banner-resume-download">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span>Download Resume (PDF)</span>
+            </a>
+            <a href="assets/docs/Sanjay_A_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg" id="banner-resume-view">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              <span>Preview In Browser</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">Whether you're looking for a dedicated Java Backend Developer, discussing architecture, or have a question, feel free to reach out!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-info-panel">
+            <div class="contact-channel-card" id="contact-email-card">
+              <div class="channel-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">Email Address</span>
+                <span class="channel-value">sanjaysr2902@gmail.com</span>
+              </div>
+              <button class="channel-copy-btn" data-copy="sanjaysr2902@gmail.com" title="Copy Email">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              </button>
+            </div>
+
+            <div class="contact-channel-card" id="contact-phone-card">
+              <div class="channel-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">Phone / WhatsApp</span>
+                <span class="channel-value">+91 7510782632</span>
+              </div>
+              <button class="channel-copy-btn" data-copy="+917510782632" title="Copy Phone Number">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              </button>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">Location</span>
+                <span class="channel-value">Malappuram, Kerala, India</span>
+              </div>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">LinkedIn</span>
+                <a href="https://linkedin.com/in/sanjaysr2902" target="_blank" rel="noopener noreferrer" class="channel-link">linkedin.com/in/sanjaysr2902</a>
+              </div>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">GitHub</span>
+                <a href="https://github.com/sanjaybridgeon-tech" target="_blank" rel="noopener noreferrer" class="channel-link">github.com/sanjaybridgeon-tech</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-panel">
+            <form class="contact-form" id="contact-form">
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-subtitle">Fill in your details below and your email client will open with the pre-filled message, or reach out directly.</p>
+
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="e.g. Rahul Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Your Email</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="e.g. rahul@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" class="form-input" placeholder="e.g. Job Opportunity / Project Discussion" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea id="contact-message" class="form-textarea" rows="4" placeholder="Hi Sanjay, I came across your portfolio and wanted to discuss..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="contact-submit-btn">
+                <span>Send Message</span>
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-name">Sanjay</span>
+          <span class="logo-accent">.dev</span>
+          <span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">Java Backend Developer • Spring Boot &amp; Microservices Architecture</p>
+      </div>
+
+      <div class="footer-right">
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer-meta">
+          <span>&copy; <span id="current-year">2026</span> Sanjay A. All rights reserved.</span>
+          <a href="#hero" class="back-to-top" aria-label="Back to top" title="Back to top">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
